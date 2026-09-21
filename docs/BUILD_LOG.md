@@ -25,3 +25,4 @@
 - [PR #3] [Commit #3] feat(ui): implement active tab highlighting and routing actions (2026-10-05T14:30:04.031Z)
 - [PR #3] [Commit #4] feat(ui): add institution badge and department subtitle (2026-10-05T14:30:07.361Z)
 - [PR #3] [Commit #5] feat(ui): integrate user profile status indicator in dock header (2026-10-05T14:30:10.937Z)
+- [PR #3] [Commit #6] feat(ui): add action triggers for cabinet brief and login modal (2026-10-05T14:30:14.240Z)
