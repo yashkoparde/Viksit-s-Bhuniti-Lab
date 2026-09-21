@@ -12,3 +12,4 @@
 - [PR #1] [Commit #10] refactor: optimize asset imports in index.html (2026-10-05T14:28:51.301Z)
 - [PR #2] [Commit #1] feat(types): define LandParcel and CadastralBoundary interfaces (2026-10-05T14:29:12.629Z)
 - [PR #2] [Commit #2] feat(types): introduce LADM ISO-19152 spatial unit and party relationship types (2026-10-05T14:29:15.194Z)
+- [PR #2] [Commit #3] feat(types): add UserRole and UserProfile permission schema (2026-10-05T14:29:17.451Z)
