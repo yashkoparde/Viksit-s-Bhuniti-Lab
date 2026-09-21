@@ -16,3 +16,4 @@
 - [PR #2] [Commit #4] feat(types): define DisputeRecord and DeBERTa classification structures (2026-10-05T14:29:20.115Z)
 - [PR #2] [Commit #5] feat(types): add PolicyMetric, DiDResult, and SCMModel types (2026-10-05T14:29:22.364Z)
 - [PR #2] [Commit #6] feat(types): define EvidenceNode and ClaimGraph edge type definitions (2026-10-05T14:29:24.785Z)
+- [PR #2] [Commit #7] feat(types): introduce CopilotMessage and CitationSpan interface (2026-10-05T14:29:27.176Z)
