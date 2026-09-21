@@ -17,3 +17,4 @@
 - [PR #2] [Commit #5] feat(types): add PolicyMetric, DiDResult, and SCMModel types (2026-10-05T14:29:22.364Z)
 - [PR #2] [Commit #6] feat(types): define EvidenceNode and ClaimGraph edge type definitions (2026-10-05T14:29:24.785Z)
 - [PR #2] [Commit #7] feat(types): introduce CopilotMessage and CitationSpan interface (2026-10-05T14:29:27.176Z)
+- [PR #2] [Commit #8] feat(types): create OgcApiEndpoint and LayerConfig types (2026-10-05T14:29:29.623Z)
