@@ -29,3 +29,4 @@
 - [PR #3] [Commit #7] style(ui): refine responsive mobile drawer collapse behavior (2026-10-05T14:30:18.021Z)
 - [PR #3] [Commit #8] refactor(ui): extract navbar tab configurations into reusable constants (2026-10-05T14:30:21.543Z)
 - [PR #3] [Commit #9] test(ui): verify keyboard accessibility and aria-labels in CommandDock (2026-10-05T14:30:24.120Z)
+- [PR #3] [Commit #10] docs(ui): document CommandDock props and role-filtering specs (2026-10-05T14:30:26.771Z)
