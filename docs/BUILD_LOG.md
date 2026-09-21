@@ -22,3 +22,4 @@
 - [PR #2] [Commit #10] test(types): add type verification helper and export index (2026-10-05T14:29:34.746Z)
 - [PR #3] [Commit #1] feat(ui): scaffold CommandDock navigation bar component (2026-10-05T14:29:57.897Z)
 - [PR #3] [Commit #2] style(ui): apply glassmorphism styling and backdrop blur to dock (2026-10-05T14:30:01.170Z)
+- [PR #3] [Commit #3] feat(ui): implement active tab highlighting and routing actions (2026-10-05T14:30:04.031Z)
