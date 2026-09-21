@@ -23,3 +23,4 @@
 - [PR #3] [Commit #1] feat(ui): scaffold CommandDock navigation bar component (2026-10-05T14:29:57.897Z)
 - [PR #3] [Commit #2] style(ui): apply glassmorphism styling and backdrop blur to dock (2026-10-05T14:30:01.170Z)
 - [PR #3] [Commit #3] feat(ui): implement active tab highlighting and routing actions (2026-10-05T14:30:04.031Z)
+- [PR #3] [Commit #4] feat(ui): add institution badge and department subtitle (2026-10-05T14:30:07.361Z)
