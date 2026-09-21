@@ -19,3 +19,4 @@
 - [PR #2] [Commit #7] feat(types): introduce CopilotMessage and CitationSpan interface (2026-10-05T14:29:27.176Z)
 - [PR #2] [Commit #8] feat(types): create OgcApiEndpoint and LayerConfig types (2026-10-05T14:29:29.623Z)
 - [PR #2] [Commit #9] refactor(types): strengthen strict null checks on spatial types (2026-10-05T14:29:32.252Z)
+- [PR #2] [Commit #10] test(types): add type verification helper and export index (2026-10-05T14:29:34.746Z)
