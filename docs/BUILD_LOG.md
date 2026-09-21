@@ -10,3 +10,4 @@
 - [PR #1] [Commit #8] docs: add initial project README layout and overview draft (2026-10-05T14:28:46.339Z)
 - [PR #1] [Commit #9] test: verify vite build and typescript declaration output (2026-10-05T14:28:48.760Z)
 - [PR #1] [Commit #10] refactor: optimize asset imports in index.html (2026-10-05T14:28:51.301Z)
+- [PR #2] [Commit #1] feat(types): define LandParcel and CadastralBoundary interfaces (2026-10-05T14:29:12.629Z)
