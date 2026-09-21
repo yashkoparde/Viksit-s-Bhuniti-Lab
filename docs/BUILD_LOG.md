@@ -14,3 +14,4 @@
 - [PR #2] [Commit #2] feat(types): introduce LADM ISO-19152 spatial unit and party relationship types (2026-10-05T14:29:15.194Z)
 - [PR #2] [Commit #3] feat(types): add UserRole and UserProfile permission schema (2026-10-05T14:29:17.451Z)
 - [PR #2] [Commit #4] feat(types): define DisputeRecord and DeBERTa classification structures (2026-10-05T14:29:20.115Z)
+- [PR #2] [Commit #5] feat(types): add PolicyMetric, DiDResult, and SCMModel types (2026-10-05T14:29:22.364Z)
