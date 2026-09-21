@@ -13,3 +13,4 @@
 - [PR #2] [Commit #1] feat(types): define LandParcel and CadastralBoundary interfaces (2026-10-05T14:29:12.629Z)
 - [PR #2] [Commit #2] feat(types): introduce LADM ISO-19152 spatial unit and party relationship types (2026-10-05T14:29:15.194Z)
 - [PR #2] [Commit #3] feat(types): add UserRole and UserProfile permission schema (2026-10-05T14:29:17.451Z)
+- [PR #2] [Commit #4] feat(types): define DisputeRecord and DeBERTa classification structures (2026-10-05T14:29:20.115Z)
