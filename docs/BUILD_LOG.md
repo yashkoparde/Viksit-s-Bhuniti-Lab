@@ -36,3 +36,4 @@
 - [PR #4] [Commit #4] feat(ui): scaffold CinematicIntro component for authenticated user logins (2026-10-05T14:30:54.770Z)
 - [PR #4] [Commit #5] style(ui): design dark-room vignette cinematic title card layout (2026-10-05T14:30:57.447Z)
 - [PR #4] [Commit #6] feat(ui): add role title audio-visual animation trigger (2026-10-05T14:31:00.076Z)
+- [PR #4] [Commit #7] feat(ui): pass user profile context into intro banner renderer (2026-10-05T14:31:02.635Z)
