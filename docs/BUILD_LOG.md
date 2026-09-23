@@ -43,3 +43,4 @@
 - [PR #5] [Commit #1] feat(auth): create LoginPortalModal container and profile selection UI (2026-10-05T14:31:32.667Z)
 - [PR #5] [Commit #2] feat(auth): define preset profiles for Cabinet, Judiciary, Surveyor, and Public roles (2026-10-05T14:31:35.753Z)
 - [PR #5] [Commit #3] feat(3d): integrate Three.js wireframe land parcel mesh canvas (2026-10-05T14:31:38.495Z)
+- [PR #5] [Commit #4] feat(3d): add continuous subtle rotation and lighting shaders to 3D land portal (2026-10-05T14:31:41.176Z)
