@@ -47,3 +47,4 @@
 - [PR #5] [Commit #5] feat(auth): implement role-based feature gating logic per access level (2026-10-05T14:31:44.214Z)
 - [PR #5] [Commit #6] style(auth): polish role badge badges and permission feature checklists (2026-10-05T14:31:47.055Z)
 - [PR #5] [Commit #7] refactor(3d): dispose Three.js WebGL renderer contexts on unmount (2026-10-05T14:31:49.975Z)
+- [PR #5] [Commit #8] feat(auth): add persistent user role switching mechanism (2026-10-05T14:31:52.445Z)
