@@ -41,3 +41,4 @@
 - [PR #4] [Commit #9] test(ui): add motion completion callback unit checks (2026-10-05T14:31:08.140Z)
 - [PR #4] [Commit #10] perf(ui): optimize CSS transforms and GPU-accelerated opacity layers (2026-10-05T14:31:11.084Z)
 - [PR #5] [Commit #1] feat(auth): create LoginPortalModal container and profile selection UI (2026-10-05T14:31:32.667Z)
+- [PR #5] [Commit #2] feat(auth): define preset profiles for Cabinet, Judiciary, Surveyor, and Public roles (2026-10-05T14:31:35.753Z)
