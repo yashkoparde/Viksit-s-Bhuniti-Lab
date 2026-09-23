@@ -49,3 +49,4 @@
 - [PR #5] [Commit #7] refactor(3d): dispose Three.js WebGL renderer contexts on unmount (2026-10-05T14:31:49.975Z)
 - [PR #5] [Commit #8] feat(auth): add persistent user role switching mechanism (2026-10-05T14:31:52.445Z)
 - [PR #5] [Commit #9] test(auth): verify permission evaluation functions for restricted routes (2026-10-05T14:32:14.804Z)
+- [PR #5] [Commit #10] docs(auth): document RBAC role hierarchy and spatial data permissions (2026-10-05T14:32:15.235Z)
