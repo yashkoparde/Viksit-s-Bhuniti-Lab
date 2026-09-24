@@ -59,3 +59,4 @@
 - [PR #6] [Commit #7] refactor(dashboard): modularize KPI summary card sub-components (2026-10-05T14:32:29.872Z)
 - [PR #6] [Commit #8] style(dashboard): refine typography, border gradients, and hover transitions (2026-10-05T14:32:30.222Z)
 - [PR #6] [Commit #9] test(dashboard): verify metric calculation precision in overview view (2026-10-05T14:32:30.625Z)
+- [PR #6] [Commit #10] docs(dashboard): update overview hero design specification (2026-10-05T14:32:30.878Z)
