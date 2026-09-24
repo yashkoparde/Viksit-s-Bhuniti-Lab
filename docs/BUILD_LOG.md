@@ -53,3 +53,4 @@
 - [PR #6] [Commit #1] feat(dashboard): build OverviewHero component layout with grid structure (2026-10-05T14:32:28.102Z)
 - [PR #6] [Commit #2] feat(dashboard): implement land governance high-level KPI cards (2026-10-05T14:32:28.433Z)
 - [PR #6] [Commit #3] feat(dashboard): add interactive quick-action navigation cards (2026-10-05T14:32:28.708Z)
+- [PR #6] [Commit #4] style(dashboard): format currency in INR Crore/Lakh and hectares (2026-10-05T14:32:29.005Z)
