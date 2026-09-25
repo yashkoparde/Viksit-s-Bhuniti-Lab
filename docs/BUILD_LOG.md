@@ -69,3 +69,4 @@
 - [PR #7] [Commit #7] style(d3): style node colors by claim category and confidence metric (2026-10-05T14:32:45.831Z)
 - [PR #7] [Commit #8] refactor(d3): optimize SVG rendering cycles on graph layout updates (2026-10-05T14:32:46.323Z)
 - [PR #7] [Commit #9] test(d3): add graph node selection state tests (2026-10-05T14:32:46.625Z)
+- [PR #7] [Commit #10] docs(analytics): document D3 force-directed claim network data format (2026-10-05T14:32:47.000Z)
