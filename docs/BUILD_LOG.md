@@ -63,3 +63,4 @@
 - [PR #7] [Commit #1] feat(analytics): scaffold EvidenceGapMap and D3EvidenceGapChart components (2026-10-05T14:32:44.045Z)
 - [PR #7] [Commit #2] feat(d3): integrate D3.js force-directed graph node rendering (2026-10-05T14:32:44.378Z)
 - [PR #7] [Commit #3] feat(d3): implement SVG link edges representing land claim relationships (2026-10-05T14:32:44.647Z)
+- [PR #7] [Commit #4] feat(d3): add zoom, pan, and node drag interactions (2026-10-05T14:32:44.922Z)
