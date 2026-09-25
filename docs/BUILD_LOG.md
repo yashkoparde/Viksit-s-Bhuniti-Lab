@@ -65,3 +65,4 @@
 - [PR #7] [Commit #3] feat(d3): implement SVG link edges representing land claim relationships (2026-10-05T14:32:44.647Z)
 - [PR #7] [Commit #4] feat(d3): add zoom, pan, and node drag interactions (2026-10-05T14:32:44.922Z)
 - [PR #7] [Commit #5] feat(analytics): create systematically reviewed grant dockets sidebar (2026-10-05T14:32:45.196Z)
+- [PR #7] [Commit #6] feat(analytics): add filter by evidence strength score (A+, A, B, C) (2026-10-05T14:32:45.468Z)
