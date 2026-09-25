@@ -61,3 +61,4 @@
 - [PR #6] [Commit #9] test(dashboard): verify metric calculation precision in overview view (2026-10-05T14:32:30.625Z)
 - [PR #6] [Commit #10] docs(dashboard): update overview hero design specification (2026-10-05T14:32:30.878Z)
 - [PR #7] [Commit #1] feat(analytics): scaffold EvidenceGapMap and D3EvidenceGapChart components (2026-10-05T14:32:44.045Z)
+- [PR #7] [Commit #2] feat(d3): integrate D3.js force-directed graph node rendering (2026-10-05T14:32:44.378Z)
