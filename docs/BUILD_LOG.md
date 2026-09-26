@@ -73,3 +73,4 @@
 - [PR #8] [Commit #1] feat(econometrics): scaffold PolicyTwin analytics suite component (2026-10-05T14:33:00.010Z)
 - [PR #8] [Commit #2] feat(econometrics): implement Staggered Difference-in-Differences (DiD) core engine (2026-10-05T14:33:00.407Z)
 - [PR #8] [Commit #3] feat(econometrics): calculate parallel trends assumption verification stats (2026-10-05T14:33:00.740Z)
+- [PR #8] [Commit #4] feat(ui): build interactive DiD treatment vs control trajectory chart (2026-10-05T14:33:00.997Z)
