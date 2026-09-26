@@ -72,3 +72,4 @@
 - [PR #7] [Commit #10] docs(analytics): document D3 force-directed claim network data format (2026-10-05T14:32:47.000Z)
 - [PR #8] [Commit #1] feat(econometrics): scaffold PolicyTwin analytics suite component (2026-10-05T14:33:00.010Z)
 - [PR #8] [Commit #2] feat(econometrics): implement Staggered Difference-in-Differences (DiD) core engine (2026-10-05T14:33:00.407Z)
+- [PR #8] [Commit #3] feat(econometrics): calculate parallel trends assumption verification stats (2026-10-05T14:33:00.740Z)
