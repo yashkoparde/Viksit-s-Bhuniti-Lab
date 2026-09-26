@@ -75,3 +75,4 @@
 - [PR #8] [Commit #3] feat(econometrics): calculate parallel trends assumption verification stats (2026-10-05T14:33:00.740Z)
 - [PR #8] [Commit #4] feat(ui): build interactive DiD treatment vs control trajectory chart (2026-10-05T14:33:00.997Z)
 - [PR #8] [Commit #5] feat(econometrics): compute point estimates, standard errors, and confidence intervals (2026-10-05T14:33:01.256Z)
+- [PR #8] [Commit #6] feat(ui): display policy impact summary metrics for land titling reforms (2026-10-05T14:33:01.597Z)
