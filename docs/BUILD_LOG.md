@@ -77,3 +77,4 @@
 - [PR #8] [Commit #5] feat(econometrics): compute point estimates, standard errors, and confidence intervals (2026-10-05T14:33:01.256Z)
 - [PR #8] [Commit #6] feat(ui): display policy impact summary metrics for land titling reforms (2026-10-05T14:33:01.597Z)
 - [PR #8] [Commit #7] style(ui): polish econometric timeline visualization controls (2026-10-05T14:33:01.906Z)
+- [PR #8] [Commit #8] refactor(econometrics): extract DiD statistical calculations into dedicated engine service (2026-10-05T14:33:02.399Z)
