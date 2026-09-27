@@ -87,3 +87,4 @@
 - [PR #9] [Commit #5] feat(ui): add placebo test permutation distributor visualization (2026-10-05T14:33:18.928Z)
 - [PR #9] [Commit #6] style(ui): style SCM predictor balance table and weight weights (2026-10-05T14:33:19.294Z)
 - [PR #9] [Commit #7] refactor(econometrics): add fallback for singular matrix linear solver (2026-10-05T14:33:19.680Z)
+- [PR #9] [Commit #8] test(econometrics): verify convex combination weight constraint sum(w_j) = 1 (2026-10-05T14:33:20.142Z)
