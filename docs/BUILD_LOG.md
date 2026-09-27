@@ -85,3 +85,4 @@
 - [PR #9] [Commit #3] feat(ui): display synthetic vs actual counterfactual outcome trajectories (2026-10-05T14:33:18.151Z)
 - [PR #9] [Commit #4] feat(econometrics): compute root mean squared prediction error (RMSPE) (2026-10-05T14:33:18.578Z)
 - [PR #9] [Commit #5] feat(ui): add placebo test permutation distributor visualization (2026-10-05T14:33:18.928Z)
+- [PR #9] [Commit #6] style(ui): style SCM predictor balance table and weight weights (2026-10-05T14:33:19.294Z)
