@@ -80,3 +80,4 @@
 - [PR #8] [Commit #8] refactor(econometrics): extract DiD statistical calculations into dedicated engine service (2026-10-05T14:33:02.399Z)
 - [PR #8] [Commit #9] test(econometrics): unit test DiD regression formula on synthetic panel data (2026-10-05T14:33:02.664Z)
 - [PR #8] [Commit #10] docs(econometrics): document DiD mathematical formulation and assumptions (2026-10-05T14:33:02.991Z)
+- [PR #9] [Commit #1] feat(econometrics): implement Synthetic Control Method (SCM) optimization engine (2026-10-05T14:33:17.399Z)
