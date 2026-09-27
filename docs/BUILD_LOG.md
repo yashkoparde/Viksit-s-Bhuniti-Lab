@@ -82,3 +82,4 @@
 - [PR #8] [Commit #10] docs(econometrics): document DiD mathematical formulation and assumptions (2026-10-05T14:33:02.991Z)
 - [PR #9] [Commit #1] feat(econometrics): implement Synthetic Control Method (SCM) optimization engine (2026-10-05T14:33:17.399Z)
 - [PR #9] [Commit #2] feat(econometrics): calculate Abadie-Diamond-Hainmueller donor pool weights (2026-10-05T14:33:17.754Z)
+- [PR #9] [Commit #3] feat(ui): display synthetic vs actual counterfactual outcome trajectories (2026-10-05T14:33:18.151Z)
