@@ -91,3 +91,4 @@
 - [PR #9] [Commit #9] perf(econometrics): optimize matrix multiplication algorithm (2026-10-05T14:33:20.455Z)
 - [PR #9] [Commit #10] docs(econometrics): document SCM methodology and donor unit selection (2026-10-05T14:33:20.775Z)
 - [PR #10] [Commit #1] feat(econometrics): implement Sun & Abraham (2021) cohort interaction estimator (2026-10-05T14:33:34.225Z)
+- [PR #10] [Commit #2] feat(econometrics): compute dynamic lead (-4 to -1) and lag (0 to +5) coefficients (2026-10-05T14:33:34.585Z)
