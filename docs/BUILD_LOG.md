@@ -94,3 +94,4 @@
 - [PR #10] [Commit #2] feat(econometrics): compute dynamic lead (-4 to -1) and lag (0 to +5) coefficients (2026-10-05T14:33:34.585Z)
 - [PR #10] [Commit #3] feat(ui): render dynamic event-study plot with 95% confidence bands (2026-10-05T14:33:34.923Z)
 - [PR #10] [Commit #4] feat(ui): add pre-trend stability hypothesis testing indicator (2026-10-05T14:33:35.257Z)
+- [PR #10] [Commit #5] feat(ui): allow switching policy outcome metrics (Litigation, Tax, Credit) (2026-10-05T14:33:35.615Z)
