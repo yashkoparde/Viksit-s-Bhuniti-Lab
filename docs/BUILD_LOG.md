@@ -99,3 +99,4 @@
 - [PR #10] [Commit #7] refactor(econometrics): unify event-study parameter estimation pipeline (2026-10-05T14:33:36.443Z)
 - [PR #10] [Commit #8] test(econometrics): verify lead coefficient significance checks (2026-10-05T14:33:36.900Z)
 - [PR #10] [Commit #9] fix(ui): correct zero-period reference normalization in plot (2026-10-05T14:33:37.332Z)
+- [PR #10] [Commit #10] docs(econometrics): document event-study cohort heterogeneity treatment (2026-10-05T14:33:37.729Z)
