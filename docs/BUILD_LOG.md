@@ -95,3 +95,4 @@
 - [PR #10] [Commit #3] feat(ui): render dynamic event-study plot with 95% confidence bands (2026-10-05T14:33:34.923Z)
 - [PR #10] [Commit #4] feat(ui): add pre-trend stability hypothesis testing indicator (2026-10-05T14:33:35.257Z)
 - [PR #10] [Commit #5] feat(ui): allow switching policy outcome metrics (Litigation, Tax, Credit) (2026-10-05T14:33:35.615Z)
+- [PR #10] [Commit #6] style(ui): style event-study relative time axis and zero line (2026-10-05T14:33:35.984Z)
