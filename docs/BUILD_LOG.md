@@ -90,3 +90,4 @@
 - [PR #9] [Commit #8] test(econometrics): verify convex combination weight constraint sum(w_j) = 1 (2026-10-05T14:33:20.142Z)
 - [PR #9] [Commit #9] perf(econometrics): optimize matrix multiplication algorithm (2026-10-05T14:33:20.455Z)
 - [PR #9] [Commit #10] docs(econometrics): document SCM methodology and donor unit selection (2026-10-05T14:33:20.775Z)
+- [PR #10] [Commit #1] feat(econometrics): implement Sun & Abraham (2021) cohort interaction estimator (2026-10-05T14:33:34.225Z)
