@@ -108,3 +108,4 @@
 - [PR #11] [Commit #6] style(ui): enhance cutoff threshold indicator and error margin shading (2026-10-05T14:33:53.018Z)
 - [PR #11] [Commit #7] refactor(econometrics): separate bandwidth selection logic into service module (2026-10-05T14:33:53.440Z)
 - [PR #11] [Commit #8] test(econometrics): test RDD jump estimator sensitivity across bandwidths (2026-10-05T14:33:53.773Z)
+- [PR #11] [Commit #9] fix(ui): ensure smooth rendering of boundary binning data points (2026-10-05T14:33:54.151Z)
