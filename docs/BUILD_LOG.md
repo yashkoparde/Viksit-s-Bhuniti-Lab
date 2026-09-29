@@ -107,3 +107,4 @@
 - [PR #11] [Commit #5] feat(ui): add McCrary density test widget for manipulation checks (2026-10-05T14:33:52.656Z)
 - [PR #11] [Commit #6] style(ui): enhance cutoff threshold indicator and error margin shading (2026-10-05T14:33:53.018Z)
 - [PR #11] [Commit #7] refactor(econometrics): separate bandwidth selection logic into service module (2026-10-05T14:33:53.440Z)
+- [PR #11] [Commit #8] test(econometrics): test RDD jump estimator sensitivity across bandwidths (2026-10-05T14:33:53.773Z)
