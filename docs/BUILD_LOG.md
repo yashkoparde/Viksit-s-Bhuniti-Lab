@@ -101,3 +101,4 @@
 - [PR #10] [Commit #9] fix(ui): correct zero-period reference normalization in plot (2026-10-05T14:33:37.332Z)
 - [PR #10] [Commit #10] docs(econometrics): document event-study cohort heterogeneity treatment (2026-10-05T14:33:37.729Z)
 - [PR #11] [Commit #1] feat(econometrics): implement Calonico-Cattaneo-Titiunik sharp/fuzzy RDD estimator (2026-10-05T14:33:51.386Z)
+- [PR #11] [Commit #2] feat(econometrics): add local linear regression with triangular kernel bandwidth selection (2026-10-05T14:33:51.747Z)
