@@ -119,3 +119,4 @@
 - [PR #12] [Commit #7] refactor(simulation): encapsulate policy outcome mathematical projection rules (2026-10-05T14:34:11.376Z)
 - [PR #12] [Commit #8] test(simulation): verify slider range bounds and derivative recalculation (2026-10-05T14:34:11.691Z)
 - [PR #12] [Commit #9] feat(simulation): add export scenario snapshot configuration button (2026-10-05T14:34:11.938Z)
+- [PR #12] [Commit #10] docs(simulation): document what-if simulation parameter weights and formulas (2026-10-05T14:34:12.368Z)
