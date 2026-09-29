@@ -103,3 +103,4 @@
 - [PR #11] [Commit #1] feat(econometrics): implement Calonico-Cattaneo-Titiunik sharp/fuzzy RDD estimator (2026-10-05T14:33:51.386Z)
 - [PR #11] [Commit #2] feat(econometrics): add local linear regression with triangular kernel bandwidth selection (2026-10-05T14:33:51.747Z)
 - [PR #11] [Commit #3] feat(ui): display spatial boundary discontinuity plot across state borders (2026-10-05T14:33:52.072Z)
+- [PR #11] [Commit #4] feat(ui): render polynomial fit curves with boundary jump treatment effect (2026-10-05T14:33:52.302Z)
