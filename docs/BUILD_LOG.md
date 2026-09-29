@@ -111,3 +111,4 @@
 - [PR #11] [Commit #9] fix(ui): ensure smooth rendering of boundary binning data points (2026-10-05T14:33:54.151Z)
 - [PR #11] [Commit #10] docs(econometrics): document spatial RDD cutoff assumptions and bandwidth controls (2026-10-05T14:33:54.543Z)
 - [PR #12] [Commit #1] feat(simulation): create Ex-Ante What-If Policy Simulation control panel (2026-10-05T14:34:09.051Z)
+- [PR #12] [Commit #2] feat(simulation): add policy lever sliders (Digitization %, Legal Legal Aid, Stamp Duty) (2026-10-05T14:34:09.355Z)
