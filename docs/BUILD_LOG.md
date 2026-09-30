@@ -127,3 +127,4 @@
 - [PR #13] [Commit #5] feat(gis): implement district inspection popup modal on parcel click (2026-10-05T14:34:27.359Z)
 - [PR #13] [Commit #6] feat(gis): add map navigation controls (zoom, reset, search location) (2026-10-05T14:34:27.788Z)
 - [PR #13] [Commit #7] style(gis): style GIS map control dock and layer toggle panel (2026-10-05T14:34:28.319Z)
+- [PR #13] [Commit #8] refactor(gis): clean Leaflet marker icon bindings and memory leaks (2026-10-05T14:34:28.732Z)
