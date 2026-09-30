@@ -125,3 +125,4 @@
 - [PR #13] [Commit #3] feat(gis): parse district LGD (Local Government Directory) GeoJSON boundaries (2026-10-05T14:34:26.584Z)
 - [PR #13] [Commit #4] feat(gis): render interactive land parcel polygon overlays with status styling (2026-10-05T14:34:26.993Z)
 - [PR #13] [Commit #5] feat(gis): implement district inspection popup modal on parcel click (2026-10-05T14:34:27.359Z)
+- [PR #13] [Commit #6] feat(gis): add map navigation controls (zoom, reset, search location) (2026-10-05T14:34:27.788Z)
