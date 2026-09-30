@@ -123,3 +123,4 @@
 - [PR #13] [Commit #1] feat(gis): scaffold GisDigitalTwin component with Leaflet map container (2026-10-05T14:34:25.816Z)
 - [PR #13] [Commit #2] feat(gis): configure zero-API key Esri World Imagery & OpenStreetMap tiles (2026-10-05T14:34:26.178Z)
 - [PR #13] [Commit #3] feat(gis): parse district LGD (Local Government Directory) GeoJSON boundaries (2026-10-05T14:34:26.584Z)
+- [PR #13] [Commit #4] feat(gis): render interactive land parcel polygon overlays with status styling (2026-10-05T14:34:26.993Z)
