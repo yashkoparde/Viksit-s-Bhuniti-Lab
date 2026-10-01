@@ -133,3 +133,4 @@
 - [PR #14] [Commit #1] feat(gis): implement multispectral satellite layer switcher (2026-10-05T14:34:43.011Z)
 - [PR #14] [Commit #2] feat(gis): add Cadastral Mismatch vector heatmap overlay (2026-10-05T14:34:43.424Z)
 - [PR #14] [Commit #3] feat(gis): integrate Climate Risk & Erosion Vulnerability spatial layers (2026-10-05T14:34:43.726Z)
+- [PR #14] [Commit #4] feat(gis): add Land Use / Land Cover (LULC) urban sprawl tracking overlay (2026-10-05T14:34:44.162Z)
