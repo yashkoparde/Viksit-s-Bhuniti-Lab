@@ -139,3 +139,4 @@
 - [PR #14] [Commit #7] style(gis): apply custom GIS legend styling with color scales (2026-10-05T14:34:45.369Z)
 - [PR #14] [Commit #8] refactor(gis): optimize multi-layer tile rendering performance (2026-10-05T14:34:45.787Z)
 - [PR #14] [Commit #9] test(gis): verify spatial layer visibility toggling logic (2026-10-05T14:34:46.034Z)
+- [PR #14] [Commit #10] docs(gis): document satellite band indices (NDVI, NDBI) and layer sources (2026-10-05T14:34:46.472Z)
