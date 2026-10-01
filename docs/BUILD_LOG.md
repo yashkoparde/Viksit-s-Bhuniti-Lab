@@ -136,3 +136,4 @@
 - [PR #14] [Commit #4] feat(gis): add Land Use / Land Cover (LULC) urban sprawl tracking overlay (2026-10-05T14:34:44.162Z)
 - [PR #14] [Commit #5] feat(gis): add SVAMITVA drone survey & PM Gati Shakti infrastructure layers (2026-10-05T14:34:44.585Z)
 - [PR #14] [Commit #6] feat(gis): build layer opacity sliders and legends (2026-10-05T14:34:44.934Z)
+- [PR #14] [Commit #7] style(gis): apply custom GIS legend styling with color scales (2026-10-05T14:34:45.369Z)
