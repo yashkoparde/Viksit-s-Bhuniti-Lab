@@ -142,3 +142,4 @@
 - [PR #14] [Commit #10] docs(gis): document satellite band indices (NDVI, NDBI) and layer sources (2026-10-05T14:34:46.472Z)
 - [PR #15] [Commit #1] feat(nlp): scaffold DisputeIntelligence component layout (2026-10-05T14:35:01.835Z)
 - [PR #15] [Commit #2] feat(nlp): implement legal court judgment NLP parser pipeline (2026-10-05T14:35:02.270Z)
+- [PR #15] [Commit #3] feat(nlp): extract case entities (parties, parcel ID, acts, legal precedent) (2026-10-05T14:35:02.730Z)
