@@ -145,3 +145,4 @@
 - [PR #15] [Commit #3] feat(nlp): extract case entities (parties, parcel ID, acts, legal precedent) (2026-10-05T14:35:02.730Z)
 - [PR #15] [Commit #4] feat(nlp): classify court cases into LADM dispute categories via DeBERTa-v3 (2026-10-05T14:35:03.178Z)
 - [PR #15] [Commit #5] feat(nlp): calculate dispute delay risk score and backlog projection (2026-10-05T14:35:03.597Z)
+- [PR #15] [Commit #6] feat(ui): build interactive case search and filter table (2026-10-05T14:35:04.034Z)
