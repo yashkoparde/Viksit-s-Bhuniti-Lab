@@ -149,3 +149,4 @@
 - [PR #15] [Commit #7] style(ui): design court judgment metadata card and tag badges (2026-10-05T14:35:04.373Z)
 - [PR #15] [Commit #8] refactor(nlp): optimize entity extraction regular expression rules (2026-10-05T14:35:04.667Z)
 - [PR #15] [Commit #9] test(nlp): unit test judgment classification parser on sample court text (2026-10-05T14:35:05.166Z)
+- [PR #15] [Commit #10] docs(nlp): document DeBERTa-v3 model fine-tuning architecture and labels (2026-10-05T14:35:05.587Z)
