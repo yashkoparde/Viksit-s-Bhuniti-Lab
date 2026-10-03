@@ -151,3 +151,4 @@
 - [PR #15] [Commit #9] test(nlp): unit test judgment classification parser on sample court text (2026-10-05T14:35:05.166Z)
 - [PR #15] [Commit #10] docs(nlp): document DeBERTa-v3 model fine-tuning architecture and labels (2026-10-05T14:35:05.587Z)
 - [PR #16] [Commit #1] feat(copilot): scaffold FederatedCopilot chat UI component (2026-10-05T14:35:20.002Z)
+- [PR #16] [Commit #2] feat(copilot): implement Gemini 2.4 @google/genai API service integration (2026-10-05T14:35:20.566Z)
