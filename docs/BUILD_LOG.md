@@ -163,3 +163,4 @@
 - [PR #17] [Commit #1] feat(export): scaffold PolicyBriefModal component with preview canvas (2026-10-05T14:35:37.934Z)
 - [PR #17] [Commit #2] feat(export): integrate jsPDF document layout generator (2026-10-05T14:35:38.383Z)
 - [PR #17] [Commit #3] feat(export): format official Cabinet Policy Brief template layout (2026-10-05T14:35:38.766Z)
+- [PR #17] [Commit #4] feat(export): render executive summary, econometric estimates, and recommendations (2026-10-05T14:35:39.204Z)
