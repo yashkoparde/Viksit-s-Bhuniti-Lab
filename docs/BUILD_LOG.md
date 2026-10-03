@@ -161,3 +161,4 @@
 - [PR #16] [Commit #9] test(copilot): test fallback policy responses when offline or missing key (2026-10-05T14:35:23.964Z)
 - [PR #16] [Commit #10] docs(copilot): document RAG vector indexing and Gemini prompt structure (2026-10-05T14:35:24.425Z)
 - [PR #17] [Commit #1] feat(export): scaffold PolicyBriefModal component with preview canvas (2026-10-05T14:35:37.934Z)
+- [PR #17] [Commit #2] feat(export): integrate jsPDF document layout generator (2026-10-05T14:35:38.383Z)
