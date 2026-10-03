@@ -160,3 +160,4 @@
 - [PR #16] [Commit #8] refactor(copilot): extract Gemini API handler into src/services/geminiService.ts (2026-10-05T14:35:23.496Z)
 - [PR #16] [Commit #9] test(copilot): test fallback policy responses when offline or missing key (2026-10-05T14:35:23.964Z)
 - [PR #16] [Commit #10] docs(copilot): document RAG vector indexing and Gemini prompt structure (2026-10-05T14:35:24.425Z)
+- [PR #17] [Commit #1] feat(export): scaffold PolicyBriefModal component with preview canvas (2026-10-05T14:35:37.934Z)
