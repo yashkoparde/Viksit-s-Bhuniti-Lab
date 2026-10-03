@@ -169,3 +169,4 @@
 - [PR #17] [Commit #7] style(export): polish modal backdrop, print preview, and download button (2026-10-05T14:35:40.489Z)
 - [PR #17] [Commit #8] refactor(export): extract PDF rendering functions into src/services/pdfExportService.ts (2026-10-05T14:35:40.924Z)
 - [PR #17] [Commit #9] test(export): verify PDF document pagination and table row wrapping (2026-10-05T14:35:41.318Z)
+- [PR #17] [Commit #10] docs(export): document PDF brief structure and metadata standard (2026-10-05T14:35:41.692Z)
