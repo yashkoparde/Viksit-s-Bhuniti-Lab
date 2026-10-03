@@ -158,3 +158,4 @@
 - [PR #16] [Commit #6] feat(copilot): add suggested policy query quick buttons (2026-10-05T14:35:22.488Z)
 - [PR #16] [Commit #7] style(copilot): design sleek dark-theme chat console with citation cards (2026-10-05T14:35:23.006Z)
 - [PR #16] [Commit #8] refactor(copilot): extract Gemini API handler into src/services/geminiService.ts (2026-10-05T14:35:23.496Z)
+- [PR #16] [Commit #9] test(copilot): test fallback policy responses when offline or missing key (2026-10-05T14:35:23.964Z)
