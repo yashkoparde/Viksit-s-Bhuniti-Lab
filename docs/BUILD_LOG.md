@@ -166,3 +166,4 @@
 - [PR #17] [Commit #4] feat(export): render executive summary, econometric estimates, and recommendations (2026-10-05T14:35:39.204Z)
 - [PR #17] [Commit #5] feat(export): add official government header emblem and stamp signature (2026-10-05T14:35:39.592Z)
 - [PR #17] [Commit #6] feat(export): generate downloadable PDF file named cabinet-policy-brief.pdf (2026-10-05T14:35:40.028Z)
+- [PR #17] [Commit #7] style(export): polish modal backdrop, print preview, and download button (2026-10-05T14:35:40.489Z)
