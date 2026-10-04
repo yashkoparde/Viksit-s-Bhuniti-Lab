@@ -171,3 +171,4 @@
 - [PR #17] [Commit #9] test(export): verify PDF document pagination and table row wrapping (2026-10-05T14:35:41.318Z)
 - [PR #17] [Commit #10] docs(export): document PDF brief structure and metadata standard (2026-10-05T14:35:41.692Z)
 - [PR #18] [Commit #1] feat(api): scaffold InnovationSandbox API playground component (2026-10-05T14:35:56.991Z)
+- [PR #18] [Commit #2] feat(api): implement LADM ISO 19152 GraphQL schema query browser (2026-10-05T14:35:57.415Z)
