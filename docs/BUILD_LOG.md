@@ -189,3 +189,4 @@
 - [PR #19] [Commit #7] refactor(i18n): extract i18n hook into src/hooks/useLanguage.ts (2026-10-05T14:36:17.705Z)
 - [PR #19] [Commit #8] test(i18n): verify key fallback mechanism to English (2026-10-05T14:36:18.117Z)
 - [PR #19] [Commit #9] fix(i18n): fix line wrapping issues in translated header components (2026-10-05T14:36:18.548Z)
+- [PR #19] [Commit #10] docs(i18n): document localization workflow and string addition guidelines (2026-10-05T14:36:18.969Z)
