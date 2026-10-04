@@ -175,3 +175,4 @@
 - [PR #18] [Commit #3] feat(api): add OGC API Features (ISO 19168) REST endpoint testing console (2026-10-05T14:35:57.866Z)
 - [PR #18] [Commit #4] feat(api): render JSON schema response viewer with syntax highlighting (2026-10-05T14:35:58.288Z)
 - [PR #18] [Commit #5] feat(api): add interactive cURL and JavaScript code snippet generator (2026-10-05T14:35:58.696Z)
+- [PR #18] [Commit #6] feat(api): include sample spatial queries for parcel boundaries and rights (2026-10-05T14:35:59.151Z)
