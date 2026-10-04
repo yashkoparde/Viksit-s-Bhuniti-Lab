@@ -172,3 +172,4 @@
 - [PR #17] [Commit #10] docs(export): document PDF brief structure and metadata standard (2026-10-05T14:35:41.692Z)
 - [PR #18] [Commit #1] feat(api): scaffold InnovationSandbox API playground component (2026-10-05T14:35:56.991Z)
 - [PR #18] [Commit #2] feat(api): implement LADM ISO 19152 GraphQL schema query browser (2026-10-05T14:35:57.415Z)
+- [PR #18] [Commit #3] feat(api): add OGC API Features (ISO 19168) REST endpoint testing console (2026-10-05T14:35:57.866Z)
