@@ -186,3 +186,4 @@
 - [PR #19] [Commit #4] feat(i18n): add translation keys for policy metrics and chart titles (2026-10-05T14:36:16.618Z)
 - [PR #19] [Commit #5] feat(i18n): translate Federated Copilot prompt suggestions and systemic notes (2026-10-05T14:36:16.982Z)
 - [PR #19] [Commit #6] style(i18n): adjust layout fonts for Indic scripts readability (2026-10-05T14:36:17.368Z)
+- [PR #19] [Commit #7] refactor(i18n): extract i18n hook into src/hooks/useLanguage.ts (2026-10-05T14:36:17.705Z)
