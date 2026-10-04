@@ -183,3 +183,4 @@
 - [PR #19] [Commit #1] feat(i18n): create multi-language dictionary for EN, HI, KN, TA, MR (2026-10-05T14:36:15.340Z)
 - [PR #19] [Commit #2] feat(i18n): implement language switcher dropdown in CommandDock (2026-10-05T14:36:15.755Z)
 - [PR #19] [Commit #3] feat(i18n): translate main navigation labels and section titles (2026-10-05T14:36:16.195Z)
+- [PR #19] [Commit #4] feat(i18n): add translation keys for policy metrics and chart titles (2026-10-05T14:36:16.618Z)
