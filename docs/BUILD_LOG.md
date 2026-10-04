@@ -179,3 +179,4 @@
 - [PR #18] [Commit #7] style(api): design developer sandbox layout with dark code editor theme (2026-10-05T14:35:59.552Z)
 - [PR #18] [Commit #8] refactor(api): extract API endpoint definitions into mock service registry (2026-10-05T14:35:59.985Z)
 - [PR #18] [Commit #9] test(api): test JSON response parsing and query parameter formatting (2026-10-05T14:36:00.349Z)
+- [PR #18] [Commit #10] docs(api): document LADM SpatialUnit and LA_RRR relationship API specs (2026-10-05T14:36:00.825Z)
