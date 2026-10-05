@@ -195,3 +195,4 @@
 - [PR #20] [Commit #3] refactor(services): extract econometrics engine into src/services/econometricEngine.ts (2026-10-05T14:36:34.313Z)
 - [PR #20] [Commit #4] refactor(services): extract PDF exporter into src/services/pdfExportService.ts (2026-10-05T14:36:34.784Z)
 - [PR #20] [Commit #5] refactor(hooks): create src/hooks/useRoleAccess.ts for RBAC permissions (2026-10-05T14:36:35.360Z)
+- [PR #20] [Commit #6] refactor(utils): create src/utils/formatters.ts for currency & area formatting (2026-10-05T14:36:35.724Z)
