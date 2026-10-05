@@ -206,3 +206,4 @@
 - [PR #21] [Commit #4] docs(hld): write comprehensive High-Level Architecture (HLD) with system diagrams (2026-10-05T14:36:52.275Z)
 - [PR #21] [Commit #5] docs(hld): add Mermaid flowcharts for data ingestion and econometric pipelines (2026-10-05T14:36:52.572Z)
 - [PR #21] [Commit #6] docs(lld): write detailed Low-Level Architecture (LLD) for component tree (2026-10-05T14:36:52.849Z)
+- [PR #21] [Commit #7] docs(lld): detail LADM ISO 19152 spatial schema and DeBERTa court parser LLD (2026-10-05T14:36:53.124Z)
