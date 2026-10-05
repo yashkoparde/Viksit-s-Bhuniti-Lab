@@ -208,3 +208,4 @@
 - [PR #21] [Commit #6] docs(lld): write detailed Low-Level Architecture (LLD) for component tree (2026-10-05T14:36:52.849Z)
 - [PR #21] [Commit #7] docs(lld): detail LADM ISO 19152 spatial schema and DeBERTa court parser LLD (2026-10-05T14:36:53.124Z)
 - [PR #21] [Commit #8] docs(lld): document D3 force-directed claim network and Leaflet GIS LLD (2026-10-05T14:36:53.490Z)
+- [PR #21] [Commit #9] docs(readme): add Quickstart, environment variable guide, and installation steps (2026-10-05T14:36:53.804Z)
