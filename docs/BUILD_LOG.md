@@ -191,3 +191,4 @@
 - [PR #19] [Commit #9] fix(i18n): fix line wrapping issues in translated header components (2026-10-05T14:36:18.548Z)
 - [PR #19] [Commit #10] docs(i18n): document localization workflow and string addition guidelines (2026-10-05T14:36:18.969Z)
 - [PR #20] [Commit #1] refactor(arch): organize project directories into components, services, hooks, utils (2026-10-05T14:36:33.377Z)
+- [PR #20] [Commit #2] refactor(services): extract Gemini API integration into src/services/geminiService.ts (2026-10-05T14:36:33.881Z)
