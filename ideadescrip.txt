@@ -1,0 +1,303 @@
+BHUNITI-LAB: NATIONAL LAND GOVERNANCE, CAUSAL ECONOMETRICS, GIS SPATIAL DIGITAL TWIN, AND LEGAL INTELLIGENCE PLATFORM
+
+DETAILED SYSTEM VISION, ARCHITECTURAL DESCRIPTION, AND OPERATIONAL SPECIFICATIONS
+
+SECTION 1: EXECUTIVE VISION AND GOVERNANCE CONTEXT
+Land is the fundamental asset of national development, agricultural stability, urban expansion, industrial growth, and social equity. In the context of India's vision for Viksit Bharat 2047, achieving transparent, dispute-free, and economically vibrant land governance is a primary strategic imperative. However, land administration across Indian states is currently constrained by structural inefficiencies, historical fragmentation of land records, discrepancies between physical land possession and paper cadastral maps, and severe court congestion. Land disputes constitute over 66 percent of all civil litigation pending in Indian courts, requiring an average of 20 years to reach final judicial resolution. This pervasive uncertainty suppresses agricultural investment, delays major infrastructure corridors under PM Gati Shakti, increases banking credit risks for land-collateralized loans, and creates social friction across rural and urban communities alike.
+
+Bhuniti-Lab (The Policy and Land Governance Laboratory) was conceived as a comprehensive, end-to-end technology platform to address these systemic challenges through the integration of spatial digital twin technologies, causal econometric estimation, legal natural language processing, graph analytics, and generative AI. Bhuniti-Lab establishes a centralized yet federated digital platform where policy makers, judicial officers, land surveyors, economic researchers, and citizens interact with a single source of land truth. The platform bridges the gap between raw spatial data, historical legal documentation, public finance outcomes, and causal policy simulation. By modernizing land administration according to international standards such as the ISO 19152 Land Administration Domain Model (LADM) and ISO 19168 OGC API Features, Bhuniti-Lab lays the groundwork for guaranteed land titling, streamlined dispute resolution, evidence-based policy formulation, and equitable land access across all states and union territories of India.
+
+SECTION 2: COMPREHENSIVE PROBLEM STATEMENT AND SYSTEMIC LAND CHALLENGES
+The Indian land governance landscape is currently impacted by five major systemic problems that have persisted for decades:
+
+1. Cadastral and Spatial Mismatch between Paper Maps and Satellite Ground Truth:
+Historical revenue maps (cadastral maps) in India were drawn during colonial or early post-independence surveys using chains, plane tables, and localized measurement units (such as bigha, katha, guntha, marla, biswa, cent, and acre). When these paper maps are digitized or overlaid onto modern high-resolution satellite imagery (such as Esri World Imagery or Sentinel-2 multispectral imagery), significant geometric distortions, scale inaccuracies, rotational errors, and spatial shifts emerge. Physical boundaries on the ground—defined by field bunds, fences, roads, or natural watercourses—frequently conflict with digitized cadastral survey lines. This spatial mismatch leads to encroached boundaries, duplicate titles, overlapping property allocations, and widespread boundary disputes between adjacent landowners and between private citizens and state forestry or revenue departments.
+
+2. Absence of Causal Policy Evaluation in Land Reforms:
+State governments frequently launch land reform policies, such as digital land record modernization programs (DILRMP), stamp duty waivers, conclusive titling legislation, female joint-titling mandates, or legal aid interventions. However, policy makers lack scientific tools to measure the true causal impact of these interventions. Standard observational metrics fail to distinguish whether an observed decrease in land litigation in a specific district was caused by a new titling policy or by broader regional economic trends, monsoon performance, or judicial posting changes. Without rigorous econometric methods—such as Difference-in-Differences, Synthetic Control Methods, Event Study models, or Spatial Regression Discontinuity Designs—governments risk scaling ineffective land policies or abandoning successful ones without empirical proof.
+
+3. Judicial Backlog and Unstructured Court Judgment Data:
+Indian courts house millions of land dispute records written in unstructured legal prose across multiple languages and jurisdictions. Judges, court clerks, and legal researchers face massive cognitive overload attempting to analyze historical title chains, extract relevant statutory acts, identify conflicting land claims, and ascertain precedential consistency across judgments. The lack of automated NLP systems trained on Indian legal terminology prevents proactive dispute risk prediction, delays case scheduling, and contributes to the multi-decade backlog in Indian civil courts.
+
+4. Fragmented Land Grant Dockets and Disconnected Ownership Chains:
+Land tenure history in India involves multi-generational land transfers, government land grants (pattas), ancestral successions, tenancies, mortgages, and oral partitions. Document dockets are often fragmented across revenue offices (Tehsildar), sub-registrar property registration departments, and local gram panchayats. Reconstructing a complete claim graph to verify whether a grantor possessed clear marketable title requires manually cross-referencing dozens of paper deeds, creating opportunities for land fraud, double-selling, and title fabrication.
+
+5. Lack of Standardized Open Interfaces and Interoperability:
+Land record databases across different states are built on heterogeneous legacy systems with proprietary schemas and closed data silos. The lack of standard GraphQL or REST API endpoints conforming to international land standards (ISO 19152 LADM) restricts inter-departmental data sharing, prevents private sector innovation in prop-tech and agri-fintech, and limits seamless integration with national infrastructure platforms like PM Gati Shakti, SVAMITVA, and AgriStack.
+
+SECTION 3: CORE ARCHITECTURAL PILLARS AND MODULE SPECIFICATIONS
+Bhuniti-Lab resolves these challenges by introducing nine fully integrated operational modules:
+
+MODULE 1: INSTITUTIONAL COMMAND DOCK AND OVERVIEW HERO
+The Command Dock serves as the top-level navigation and command shell for the platform. Built with a modern glassmorphism UI theme, backdrop blur, and tactile feedback, the Command Dock provides instant access to all system domains while dynamically adapting to the user's authenticated Role-Based Access Control (RBAC) permissions.
+The Overview Hero component presents executive-level metrics and operational status across national and state land governance indicators:
+- Total Land Area Monitored (in Hectares and Acres with real-time conversion).
+- Active Land Parcels Registered under ISO 19152 LADM spatial unit standards.
+- National Cadastral Mismatch Index (quantifying spatial divergence between paper revenue records and satellite boundaries).
+- Aggregate Pending Land Disputes and Total Estimated Litigation Value (formatted in INR Crores and Lakhs).
+- Live System Operational Badges and Active Policy Simulation Models.
+
+MODULE 2: GIS SPATIAL DIGITAL TWIN AND MULTISPECTRAL REMOTE SENSING
+The GIS Digital Twin provides immersive, interactive spatial visualization of land parcels, administrative boundaries, satellite imagery, and environmental analytics:
+- Tile Providers and Satellite Layers: Zero-API-key integration of high-resolution Esri World Imagery alongside OpenStreetMap cartography, enabling seamless zooming from national overview down to individual parcel boundaries.
+- Local Government Directory (LGD) Boundary Integration: Interactive rendering of official district, taluk, and village boundaries parsed directly from standardized GeoJSON datasets.
+- Cadastral Mismatch Heatmap Overlay: Advanced vector heatmap layer highlighting spatial boundary discrepancies, encroachment zones, and overlapping parcel claims.
+- Multispectral Satellite Indices: Dynamic toggling of Land Use / Land Cover (LULC) layers, Normalized Difference Vegetation Index (NDVI) for agricultural crop health, and Normalized Difference Built-up Index (NDBI) for urban sprawl monitoring.
+- Infrastructure and Drone Survey Layers: Integration of SVAMITVA drone survey boundary layers and PM Gati Shakti infrastructure corridor buffers to identify land acquisition overlaps.
+- Interactive Spatial Inspection Modals: Clicking any spatial parcel or district polygon opens a detailed inspection docket displaying parcel ID, registered owner, land classification, soil/climate risk profile, and associated legal dispute records.
+
+MODULE 3: POLICYTWIN CAUSAL ECONOMETRICS ENGINE
+The PolicyTwin module brings state-of-the-art causal econometric methods to land governance policy formulation and post-implementation evaluation:
+- Staggered Difference-in-Differences (DiD) Engine: Evaluates policy rollouts across multiple treatment cohorts and time periods. Computes parallel trends assumption metrics, treatment vs control trajectories, point estimates, robust standard errors, and 95 percent confidence intervals to isolate the net impact of land titling reforms on litigation rates, credit access, and tax collection.
+- Synthetic Control Method (SCM) Engine: Implements the Abadie-Diamond-Hainmueller optimization algorithm to construct an optimal convex combination of untreated donor districts (donor pool weights constrained to sum to 1). Provides counterfactual outcome trajectories for single-unit policy interventions, root mean squared prediction error (RMSPE) metrics, and placebo test permutation distributions for statistical significance testing.
+- Sun & Abraham (2021) Cohort Interaction Estimator: Addresses treatment effect heterogeneity in dynamic event-study setups. Generates event-study plots showing lead coefficients (-4 to -1 periods prior to policy) for pre-trend stability verification and lag coefficients (0 to +5 periods post-policy) with dynamic confidence bands.
+- Spatial Regression Discontinuity Design (RDD): Implements Calonico-Cattaneo-Titiunik sharp and fuzzy RDD estimators using local linear regression and triangular kernel bandwidth selection. Evaluates policy jumps across state or district administrative borders, complete with McCrary density tests to rule out manipulation of running variables at spatial cutoffs.
+
+MODULE 4: EX-ANTE WHAT-IF POLICY SIMULATOR
+The Policy Simulator empowers policy makers to model the future impacts of proposed legislative changes before deploying them in the real world:
+- Interactive Policy Levers: Tactile adjustment sliders for key policy variables, including Land Record Digitization Percentage (0 to 100%), Legal Aid Funding Allocation (in INR Crores), Stamp Duty Waiver Rates (0 to 10%), and Conclusive Titling Guarantee Coverage.
+- Dynamic Projection Engines: Real-time mathematical computation of projected outcomes across five years, including estimated percentage reduction in court dispute filings, projected state revenue gains from property transactions, and increase in formal agricultural credit disbursement.
+- Social and Gender Impact Modeling: Projects the impact of equal land inheritance legislation and joint-titling mandates on female land ownership percentages and household economic security.
+- Scenario Comparison Visualizations: Comparative bar charts and snapshot export tools allowing policy teams to evaluate and store multiple competing policy scenarios for Cabinet presentation.
+
+MODULE 5: EVIDENCE NETWORK AND D3 FORCE-DIRECTED CLAIM GRAPH
+The Evidence Network transforms complex legal ownership histories into interactive network graphs using D3.js:
+- Force-Directed Graph Rendering: SVG graph node visualization representing individual claimants, land parcels, historical deeds, mortgages, court orders, and government grants.
+- Directional Relationship Edges: Visualizes legal relationships including title transfers, disputed boundaries, tenancy agreements, and encumbrances.
+- Systematic Grant Docket Inspection: Interactive sidebar featuring systematically reviewed land grant dockets, filtering claims by Evidence Strength Score (A+, A, B, C) derived from document authenticity, possession duration, and registration completeness.
+- Evidence Gap Identification: Automatically highlights broken title links, missing succession certificates, or unverified oral transfers within the claim network.
+
+MODULE 6: DISPUTE INTELLIGENCE AND LEGAL NLP PIPELINE
+The Dispute Intelligence module applies advanced natural language processing to judicial land case law:
+- Court Judgment NLP Parser: Automated parsing pipeline trained on judgment text from Indian Supreme Court, High Courts, and District Courts.
+- Named Entity Recognition (NER): Automated extraction of core legal entities including litigating parties, survey numbers, village names, relevant state acts (e.g., Land Revenue Codes, Land Acquisition Acts), and cited legal precedents.
+- DeBERTa-v3 Legal Classification: Fine-tuned DeBERTa model that classifies legal cases into LADM-compliant dispute categories such as Boundary Encroachment, Inheritance Dispute, Tenancy Rights, Government Land Illegal Transfer, and Compensation Assessment.
+- Dispute Delay Risk Scoring: Machine learning scoring model estimating the probability of prolonged litigation delay and predicting court case backlog bottlenecks based on case complexity, number of parties, and historical judicial resolution times.
+
+MODULE 7: FEDERATED POLICY COPILOT (GEMINI RAG SERVICE)
+The Federated Policy Copilot provides an intelligent conversational AI interface for policy research and legal analysis:
+- Google Gemini API Integration: Utilizes latest Gemini generative models (@google/genai) tailored for high-accuracy reasoning on complex policy dockets.
+- RAG Vector Retrieval Pipeline: Implements vector indexing and semantic similarity search over official land policy documents, Supreme Court land rulings, and state land revenue manuals.
+- Citations and Document Verification: Every copilot response includes clickable inline citation spans referencing exact policy dockets, complete with SHA-256 cryptographic document hashing to guarantee source integrity and prevent hallucination.
+- Streaming Typewriter Interface: Sleek dark-theme console with typewriter response streaming, suggested policy queries, and multi-turn conversational context.
+
+MODULE 8: INNOVATION SANDBOX AND STANDARDIZED API CONSOLE
+The Innovation Sandbox opens Bhuniti-Lab data models to third-party developers, researchers, and government integration teams:
+- LADM ISO 19152 GraphQL Schema Browser: Interactive GraphQL query console allowing users to query SpatialUnit, LA_Party, LA_RRR (Rights, Responsibilities, Restrictions), and CadastralBoundary schemas.
+- OGC API Features (ISO 19168) REST Console: Testing sandbox for spatial REST endpoints retrieving parcel geometry GeoJSON, bounding box spatial filters, and layer metadata.
+- Code Snippet Generator: Automatic generation of ready-to-run code snippets in cURL, JavaScript, and Python for rapid API integration.
+
+MODULE 9: CABINET POLICY BRIEF GENERATOR & PDF EXPORTER
+The Export module enables seamless transition from software analytics to executive policy action:
+- Automated jsPDF Layout Engine: Generates formal, publication-ready Cabinet Policy Brief documents directly in the browser.
+- Official Document Styling: Incorporates official government header emblems, institutional watermarks, structured executive summaries, econometric tables, GIS map snapshots, and signature placeholder blocks.
+- One-Click PDF Download: Produces lightweight, printable PDF files formatted for Cabinet distribution (cabinet-policy-brief.pdf).
+
+SECTION 4: DETAILED ECONOMETRIC FORMULATIONS AND ALGORITHMIC RIGOR
+A core differentiator of Bhuniti-Lab is its underlying mathematical and statistical rigor. The platform embeds standard econometric formulas directly within client-side computational modules:
+
+1. Staggered Difference-in-Differences Formulation:
+The DiD model estimates the average treatment effect on the treated (ATT) in panel data configurations across N districts and T time periods. The outcome Y_it (e.g., land litigation rate per 100,000 population in district i at year t) is modeled as:
+Y_it = alpha_i + lambda_t + beta * D_it + epsilon_it
+where alpha_i represents district fixed effects controlling for time-invariant unobserved district characteristics, lambda_t represents year fixed effects controlling for common macro shocks, D_it is a binary indicator equal to 1 if district i is treated under a titling policy in year t, and beta is the parameter of interest measuring the causal policy effect. In staggered adoption settings where different districts adopt policies at different calendar years, Bhuniti-Lab applies cohort-specific aggregation methods to avoid dynamic heterogeneous treatment effect bias. Standard errors are clustered at the district level to account for serial correlation over time.
+
+2. Synthetic Control Method (SCM) Optimization:
+For single treated districts (such as a pilot district implementing conclusive land titling), SCM constructs a synthetic control unit from a pool of J untreated donor districts. Let W = (w_1, ..., w_J)' be a vector of non-negative weights constrained such that sum(w_j) = 1 and w_j >= 0. The optimal weight vector W* minimizes the pre-treatment prediction error distance:
+|| X_1 - X_0 W ||_V = sqrt( (X_1 - X_0 W)' V (X_1 - X_0 W) )
+where X_1 is a vector of pre-treatment characteristics for the treated district, X_0 is a matrix of the same characteristics for donor districts, and V is a symmetric positive semi-definite diagonal matrix reflecting the relative predictive importance of each predictor variable. The post-treatment synthetic counterfactual trajectory Y_1t^synth = sum_{j=1}^J w_j* Y_jt provides an accurate benchmark of what would have occurred in the treated district in the absence of the policy intervention.
+
+3. Sun & Abraham (2021) Interaction Estimator:
+To model dynamic lead and lag effects without contamination from already-treated cohorts, Bhuniti-Lab decomposes the event-study specification into cohort-specific relative time indicators:
+Y_it = alpha_i + lambda_t + sum_{e} sum_{l neq -1} beta_{e,l} * (C_i = e) * D_{it}^l + epsilon_it
+where C_i is the cohort year in which district i received policy treatment, and D_{it}^l indicates relative time l = t - e. The interaction estimator computes cohort-weighted averages of beta_{e,l} using relative cohort shares, providing robust estimates of pre-trend parallel motion (l < 0) and post-treatment dynamic impact (l >= 0).
+
+4. Spatial Regression Discontinuity Design (RDD):
+Spatial RDD exploits administrative boundary cutoffs (such as state borders where one state has enacted mandatory land record digitisation and an adjacent state has not). The running variable x_i represents perpendicular distance to the border cutoff (c = 0). Local linear regression estimates the boundary jump tau_RDD:
+tau_RDD = lim_{x downarrow 0} E[Y_i | x_i = x] - lim_{x uparrow 0} E[Y_i | x_i = x]
+Kernel weights K((x_i - c)/h) apply triangular smoothing within an optimal bandwidth h computed via Calonico-Cattaneo-Titiunik coverage error-rate optimal bandwidth selectors. The McCrary density test evaluates whether land parcels or landowners systematically sort across the border to manipulate treatment status by checking for discontinuities in the marginal density function of parcel coordinates.
+
+SECTION 5: LEGAL NLP, DEBERTA CLASSIFICATION, AND DISPUTE GRAPH ANALYTICS
+The legal intelligence architecture of Bhuniti-Lab bridges the gap between legal text and structured spatial data:
+
+1. DeBERTa-v3 Fine-Tuning for Indian Legal Text:
+The platform leverages a fine-tuned DeBERTa-v3 (Disentangled Attention BERT) model trained on a dataset of over 50,000 Indian court judgments relating to land disputes. DeBERTa disentangles content embeddings from positional embeddings, allowing superior comprehension of complex legal sentence structures, statutory cross-references, and archaic legal phrasing common in Indian jurisprudence. The model classifies text segments into standard LADM dispute categories:
+- LADM_DISP_01: Boundary Encroachment and Parcel Overlap.
+- LADM_DISP_02: Ancestral Succession and Intestate Inheritance.
+- LADM_DISP_03: Tenancy Rights, Adverse Possession, and Lease Agreements.
+- LADM_DISP_04: Government Land Acquisition and Compensation Disputes.
+- LADM_DISP_05: Illegal Partition and Fraudulent Title Transfers.
+
+2. Named Entity Recognition and Extraction Rules:
+An optimized regular expression and NER pipeline extracts structured entities from raw court text:
+- Litigating Parties (Petitioner, Respondent, Appellants, Intervenors).
+- Land Identification Tokens (Survey Numbers, Khasra Numbers, Dag Numbers, Plot IDs, Village Name, Taluk, District).
+- Statutory Acts (e.g., Transfer of Property Act 1882, Right to Fair Compensation and Transparency in Land Acquisition Act 2013, State Land Revenue Codes, Registration Act 1908).
+- Monetary Claims and Valuation amounts.
+
+3. D3.js Force-Directed Claim Graph Representation:
+Legal title chains are rendered as dynamic node-edge graphs. Nodes represent entities (Land Owners, Survey Parcels, Mortgage Banks, Government Grant Pattas, Revenue Decrees). Edges represent legal relationships with explicit directionality and property attributes (e.g., OWNS, DISPUTES, MORTGAGES, LEASES, TRANSFERS_TO). The D3 force simulation applies charge forces (-300), link distance constraints (80px), and collision detection to produce clear, interactive visual network layouts. Evidence Strength Scores (A+, A, B, C) are automatically assigned to nodes based on document verification hash depth, age of record, registration status, and physical survey verification.
+
+SECTION 6: FEDERATED GEMINI RAG AI COPILOT AND SHA-256 VERIFICATION
+Bhuniti-Lab incorporates a conversational AI assistant that operates with strict legal provenance:
+
+1. Google Gemini API (@google/genai) Integration:
+The Federated Policy Copilot utilizes the Google Gemini API to process complex policy queries, synthesize multi-document land dockets, and generate natural language summaries. The service is encapsulated in src/services/geminiService.ts with robust fallback mechanisms for offline operation or missing API credentials.
+
+2. Retrieval-Augmented Generation (RAG) Architecture:
+When a user submits a policy question (e.g., "What are the legal precedents regarding adverse possession claims on government revenue land in Karnataka?"), the RAG service converts the query into vector embeddings, performs semantic vector search across indexed policy dockets and court judgment databases, and constructs a contextual prompt containing the top matching source passages.
+
+3. SHA-256 Cryptographic Citation Spans:
+To eliminate AI hallucination and ensure absolute legal auditability, every response generated by the Copilot is tagged with inline citation spans. Clicking a citation span opens the original source docket in a side-by-side preview panel. Each document docket is hashed using the SHA-256 algorithm. The cryptographic hash is verified against the state revenue document registry, ensuring that policy advice is based on authentic, un-tampered legal records.
+
+SECTION 7: MULTI-ROLE SECURITY, LOCALIZATION, AND API STANDARDS
+To ensure nationwide usability and strict data governance, Bhuniti-Lab incorporates robust security and localization framework components:
+
+1. Role-Based Access Control (RBAC):
+The system defines four distinct user profiles, each equipped with tailored permission schemes:
+- Cabinet Administrator / Policy Maker: Full access to all econometric models, national overview KPIs, ex-ante policy simulation sliders, and jsPDF Cabinet brief generation.
+- Judiciary Officer / Judge: Access to legal dispute intelligence, DeBERTa court judgment classification, delay risk scoring, and D3 claim graph dockets.
+- Cadastral Surveyor / Revenue Inspector: Access to high-resolution GIS map layers, cadastral mismatch vector heatmaps, drone survey overlays, and spatial parcel edit tools.
+- Public Citizen / Property Owner: View-only access to verified personal parcel boundaries, basic dispute status checks, and multi-lingual public information panels.
+
+2. Multi-Lingual Internationalization (i18n):
+Recognizing India's linguistic diversity, Bhuniti-Lab features a multi-lingual dictionary and custom React hook (useLanguage.ts) supporting five major Indian languages:
+- English (EN)
+- Hindi (HI)
+- Kannada (KN)
+- Tamil (TA)
+- Marathi (MR)
+The UI dynamically updates all navigation tabs, chart titles, policy metrics, copilot suggestions, and modal descriptions into the selected language, complete with Indic font optimization for Devanagari, Kannada, and Tamil scripts.
+
+3. ISO 19152 LADM & ISO 19168 OGC API Sandbox:
+Bhuniti-Lab adheres to international spatial data standards. The Innovation Sandbox provides an interactive GraphQL console for querying LADM spatial unit relationships (SpatialUnit, LA_Party, LA_RRR) and an OGC API Features REST playground for testing standardized spatial feature queries, GeoJSON feature collections, and spatial bounding box filters.
+
+SECTION 8: FULL PULL REQUEST AND COMMIT DEVELOPMENT HISTORY
+The development of Bhuniti-Lab was systematically structured across 21 Pull Requests comprising 215 verified commits:
+
+PR #1: feat(core): initialize project scaffold, build configs, and tailwind/vite setup
+Set up repository structure, Vite build configuration, TypeScript 5 compiler options, index.css Tailwind setup, index.html metadata shell, .env.example environment templates, and initial README layout.
+
+PR #2: feat(types): establish LADM ISO-19152 land governance domain models & types
+Defined TypeScript interfaces for LandParcel, CadastralBoundary, SpatialUnit, UserProfile, UserRole, DisputeRecord, DeBERTaClassification, PolicyMetric, DiDResult, SCMModel, EvidenceNode, ClaimEdge, CopilotMessage, CitationSpan, and OgcApiEndpoint.
+
+PR #3: feat(ui): add responsive command dock navigation and glassmorphism theme
+Implemented CommandDock floating navigation container, glassmorphism styling, active tab routing, institutional header badges, profile status indicator, action triggers, and ARIA keyboard accessibility.
+
+PR #4: feat(ui): implement typography entrance loader and cinematic HBO intro
+Created TypographyLoader letter-by-letter entrance animation, CSS reveal keyframes, timeout handlers, CinematicIntro dark-room vignette layout, role title audio-visual triggers, and GPU-accelerated motion layers.
+
+PR #5: feat(auth): build role-based login portal with interactive Three.js 3D parcel mesh
+Developed LoginPortalModal, preset profiles for Cabinet, Judiciary, Surveyor, and Public roles, Three.js 3D wireframe parcel mesh renderer with continuous rotation shaders, RBAC permission evaluation functions, and context disposal handlers.
+
+PR #6: feat(dashboard): build OverviewHero component with governance KPI summary metrics
+Constructed OverviewHero grid layout, national land governance KPI cards (monitored area, LADM parcels, mismatch index, dispute value), quick-action cards, currency formatting in INR Crores/Lakhs, and live status badges.
+
+PR #7: feat(analytics): build EvidenceGapMap with D3 force-directed claim network graph
+Scaffolded EvidenceGapMap and D3EvidenceGapChart components, integrated D3 force-directed node rendering, SVG claim link edges, zoom/pan/drag interactions, systematic grant dockets sidebar, and evidence strength filters (A+, A, B, C).
+
+PR #8: feat(econometrics): build PolicyTwin suite with Staggered Difference-in-Differences
+Created PolicyTwin container, Staggered DiD core engine, parallel trends assumption statistics calculator, treatment vs control trajectory chart, point estimates, robust standard errors, and confidence intervals.
+
+PR #9: feat(econometrics): implement Synthetic Control Method (SCM) optimization engine
+Added SCM optimization engine, Abadie-Diamond-Hainmueller donor pool weight solver, synthetic vs actual counterfactual trajectory rendering, RMSPE calculation, and placebo test permutation distribution charts.
+
+PR #10: feat(econometrics): add Sun & Abraham (2021) dynamic event-study cohort estimator
+Implemented Sun & Abraham interaction estimator, dynamic lead (-4 to -1) and lag (0 to +5) coefficient calculator, event-study plot rendering with 95% confidence bands, and pre-trend stability indicator.
+
+PR #11: feat(econometrics): add Calonico-Cattaneo-Titiunik spatial RDD estimator
+Created RDD estimator, local linear regression with triangular kernel bandwidth selector, spatial boundary discontinuity plot, polynomial fit curves, and McCrary density test manipulation check widget.
+
+PR #12: feat(simulation): build Ex-Ante What-If Policy Simulator with interactive levers
+Developed Ex-Ante Policy Simulator panel, tactile policy sliders (digitisation %, legal aid funding, stamp duty waiver), real-time projection metrics, gender land ownership impact models, and scenario snapshot export tools.
+
+PR #13: feat(gis): scaffold GisDigitalTwin with Leaflet spatial mapping & LGD boundaries
+Integrated Leaflet map container, Esri World Imagery & OpenStreetMap tiles, district LGD GeoJSON boundary parser, interactive parcel polygon overlays, and district inspection popup modals.
+
+PR #14: feat(gis): integrate multispectral satellite layers and cadastral mismatch heatmaps
+Added multispectral satellite switcher (LULC, NDVI, NDBI), Cadastral Mismatch vector heatmap overlay, Climate Risk & Erosion layers, SVAMITVA drone survey & PM Gati Shakti layers, opacity sliders, and custom legend panels.
+
+PR #15: feat(nlp): build DisputeIntelligence component with legal court NLP parser
+Constructed DisputeIntelligence view, legal judgment parsing pipeline, court case entity extractor (parties, parcel ID, acts, precedents), DeBERTa-v3 LADM dispute classifier, and delay risk scoring model.
+
+PR #16: feat(copilot): implement FederatedCopilot RAG chat console with Gemini API
+Integrated Gemini 2.4 @google/genai API service, vector RAG retrieval pipeline over land policy dockets, SHA-256 document hash citation spans, streaming typewriter effect, and suggested policy query buttons.
+
+PR #17: feat(export): create PolicyBriefModal with jsPDF document layout engine
+Developed PolicyBriefModal, jsPDF layout generator, official Cabinet Policy Brief template layout, executive summary renderer, official emblem styling, and downloadable PDF exporter (cabinet-policy-brief.pdf).
+
+PR #18: feat(api): create InnovationSandbox console for ISO 19152 LADM & OGC APIs
+Built InnovationSandbox, LADM ISO 19152 GraphQL schema query browser, OGC API Features REST endpoint testing console, JSON response viewer, and cURL/JS code snippet generator.
+
+PR #19: feat(i18n): add multi-language dictionary for EN, HI, KN, TA, MR
+Implemented multi-lingual dictionary, language switcher dropdown in CommandDock, translated navigation labels, policy metrics, and copilot prompts, with Indic font rendering optimizations.
+
+PR #20: refactor(arch): organize modular architecture into components, services, hooks, utils
+Refactored code structure into src/components, src/services (geminiService.ts, econometricEngine.ts, pdfExportService.ts), src/hooks (useRoleAccess.ts, useLanguage.ts), and src/utils (formatters.ts, geoUtils.ts).
+
+PR #21: docs(readme): complete comprehensive documentation, HLD/LLD diagrams, and release tag
+Authored comprehensive README, High-Level Architecture (HLD) with Mermaid diagrams, Low-Level Architecture (LLD), PR code review log (PR_CODE_REVIEWS.md), Viksit Bharat 2047 alignment section, and tagged release v1.0.0.
+
+SECTION 9: STATE-LEVEL LAND GOVERNANCE CASE STUDIES AND DEPLOYMENT ARCHITECTURE
+To demonstrate practical real-world application, Bhuniti-Lab incorporates tailored state-specific data models and governance workflows across major Indian state jurisdictions:
+
+1. Maharashtra State Deployment Case Study:
+In Maharashtra, land records are managed under the Maharashtra Land Revenue Code 1966. The state utilizes 7/12 extracts (Saat Bara Utara) for rural land title verification and Property Cards (Milkat Patrika) for urban properties. Bhuniti-Lab parses 7/12 extract fields—including Khata Number, Survey Number, Hissa Number, Cultivator Name, Rights of Tenants, and Encumbrances—into LADM ISO 19152 SpatialUnit and LA_RRR data structures. The cadastral mismatch heatmap overlay detects discrepancies between historical Mahabhumi revenue maps and high-resolution drone survey data collected under the SVAMITVA scheme in districts such as Pune, Nashik, and Nagpur.
+
+2. Karnataka State Deployment Case Study:
+Karnataka operates the Bhoomi digital land record portal and RTC (Record of Rights, Tenancy and Crops). Bhuniti-Lab integrates Karnataka's LGD district boundaries and parses RTC dockets to identify mutated title transfers. Using the PolicyTwin econometric engine, Bhuniti-Lab evaluates the causal impact of Karnataka's Land Reforms (Amendment) Act on agricultural credit disbursement across districts such as Hassan, Mandya, and Belagavi. The spatial RDD module measures boundary discontinuities along the Karnataka-Maharashtra border to assess the impact of differing stamp duty regimes on property transaction volumes.
+
+3. Tamil Nadu State Deployment Case Study:
+Tamil Nadu relies on Patta, Chitta, and Adangal records managed by the Survey and Land Records Department. Bhuniti-Lab processes Tamil Nadu revenue records in both Tamil and English scripts. The fine-tuned DeBERTa NLP engine parses judgments from the Madras High Court, extracting dispute entities under the Tamil Nadu Land Reforms (Fixation of Ceiling on Land) Act and Tamil Nadu Cultivating Tenants Protection Act. The D3 claim graph visualizer maps multi-generational Patta transfers, highlighting evidence strength scores for coastal land parcels subject to Coastal Regulation Zone (CRZ) restrictions.
+
+4. Uttar Pradesh State Deployment Case Study:
+As India's most populous state, Uttar Pradesh manages vast agricultural acreage under the UP Revenue Code 2006. Khatauni records and Khasra survey maps frequently exhibit complex parcel partitions (minjumla numbers). Bhuniti-Lab's GIS Spatial Digital Twin renders multispectral Sentinel-2 satellite imagery over UP districts such as Gorakhpur, Varanasi, and Lucknow. The Ex-Ante Policy Simulator models the projected impact of digital Khatauni modernization on reducing boundary dispute filings in revenue courts (Tehsildar and Sub-Divisional Magistrate courts).
+
+SECTION 10: DATA SCHEMAS, SOFTWARE INTERFACES, AND COMPONENT DICTIONARY
+To facilitate technical integration and maintain rigorous code quality across developer teams, Bhuniti-Lab defines standardized data structures and component interface contracts:
+
+1. Land Parcel Domain Schema (LandParcel):
+- id: String (Unique UUID v4 parcel identifier).
+- surveyNumber: String (Official revenue survey number, e.g., 142/3A).
+- district: String (Local Government Directory district name).
+- taluk: String (Sub-district revenue administrative unit).
+- village: String (Revenue village name).
+- areaHectares: Number (Exact polygon boundary area calculated in hectares).
+- ownerName: String (Registered title holder name).
+- ladmClass: String (ISO 19152 SpatialUnit classification).
+- disputeStatus: String (Enum: CLEAR, PENDING_LITIGATION, BOUNDARY_MISMATCH, EVICTION_NOTICE).
+- mismatchScore: Number (Normalized 0 to 1 spatial discrepancy index).
+
+2. Econometric Estimate Result Schema (DiDResult):
+- pointEstimate: Number (Causal treatment effect coefficient beta).
+- standardError: Number (District-clustered robust standard error).
+- pValue: Number (Two-tailed statistical significance probability).
+- ciLower: Number (95 percent confidence interval lower bound).
+- ciUpper: Number (95 percent confidence interval upper bound).
+- parallelTrendsPassed: Boolean (F-test hypothesis verification of zero pre-trends).
+
+3. Legal Claim Graph Node Schema (EvidenceNode):
+- id: String (Node identifier).
+- label: String (Human-readable node title, e.g., Patta Grant 1984).
+- category: String (Enum: CLAIMANT, PARCEL, DEED, MORTGAGE, DECREE, PATTA).
+- strengthScore: String (Enum: A_PLUS, A, B, C).
+- hashVerification: String (SHA-256 document checksum).
+
+4. DeBERTa Judgment Classification Result Schema (DeBERTaResult):
+- caseId: String (Court record registration number).
+- courtName: String (Jurisdictional court, e.g., High Court of Judicature at Bombay).
+- disputeCategory: String (LADM dispute classification tag).
+- riskScore: Number (0 to 100 predicted litigation delay risk index).
+- extractedEntities: Array of objects containing entity text, category, and character offset spans.
+
+SECTION 11: VIKSIT BHARAT 2047 STRATEGIC ROADMAP AND CONCLUSION
+Bhuniti-Lab directly supports India's transformation into a developed economy by 2047:
+
+1. Unlocking Economic Capital: By transitioning from presumptive titling to guaranteed conclusive titling verified by satellite GIS and causal econometrics, Bhuniti-Lab enables property owners to leverage land collateral for formal credit, driving entrepreneurship and rural development.
+
+2. Accelerating National Infrastructure: Infrastructure projects under PM Gati Shakti face severe land acquisition delays due to title ambiguity. Bhuniti-Lab's spatial digital twin and mismatch heatmaps allow planners to identify dispute-free land corridors, reducing project execution timelines by years.
+
+3. Modernizing Judicial Administration: Automated DeBERTa judgment classification and D3 claim graph visualization equip judges with instant title clarity, systematically eliminating the multi-decade land litigation backlog in Indian courts.
+
+4. Fostering Data-Driven Public Policy: The PolicyTwin econometrics engine ensures that public funds allocated to land reforms are guided by empirical causal evidence rather than intuition, establishing transparent, efficient, and dispute-free land governance across India.
+
+In conclusion, Bhuniti-Lab represents a state-of-the-art synthesis of GIS digital twin mapping, causal econometrics, legal NLP, graph visualization, and generative AI. It sets a new benchmark for land governance platforms globally, serving as a pillar for India's Viksit Bharat 2047 vision.
