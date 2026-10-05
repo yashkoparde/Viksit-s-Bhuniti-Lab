@@ -8,9 +8,7 @@
   [![Vite](https://img.shields.io/badge/Vite-8.3.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-  [![Google Gemini 2.4](https://img.shields.io/badge/AI-Google_Gemini_2.4-4285F4?style=flat-square&logo=googlegemini&logoColor=white)](https://ai.google.dev/)
   [![LADM ISO 19152](https://img.shields.io/badge/Standard-LADM_ISO_19152-008080?style=flat-square)](https://www.iso.org/standard/51206.html)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-21_Merged-success?style=flat-square)](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pulls)
   [![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square)]()
 </div>
 
@@ -34,7 +32,7 @@ Land governance across Indian states faces severe structural bottlenecks that im
 | **Policy Evaluation** | Observational metrics & speculative guesses | **PolicyTwin Causal Econometric Engine** (Staggered DiD, Synthetic Control SCM, Spatial RDD) | **ATT = -14.4% Dispute Reduction (p < 0.001)** |
 | **Legal Judgments** | Unstructured paper court dockets | **DeBERTa-v3 Legal NLP Classifier** extracting statutory entities & LADM categories | **Automated Delay Risk Scoring** |
 | **Claim History** | Disconnected multi-generational paper deeds | **D3.js Force-Directed Claim Network** mapping ownership nodes (A+ to C evidence scores) | **Instant Evidence Gap Identification** |
-| **Executive Decisions** | Manual static reports | **Google Gemini 2.4 Vector RAG Copilot** + Client-Side **jsPDF Cabinet Brief Generator** | **Instant PDF Executive Briefs** |
+| **Executive Decisions** | Manual static reports | **Policy Vector RAG Copilot** + Client-Side **jsPDF Cabinet Brief Generator** | **Instant PDF Executive Briefs** |
 
 ---
 
@@ -57,7 +55,7 @@ flowchart TD
             B2[Econometric Engine: DiD, SCM, RDD]
             B3[Leaflet GIS Spatial Engine]
             B4[D3 Force-Directed Network Engine]
-            B5[Google Gemini 2.4 RAG Copilot]
+            B5[Policy RAG Copilot Engine]
         end
 
         B --> B1
@@ -112,7 +110,7 @@ src/
 │   ├── DisputeIntelligence.tsx  # DeBERTa court judgment NLP classification
 │   ├── EvidenceGapMap.tsx       # Interactive claim network & grant dockets
 │   ├── D3EvidenceGapChart.tsx   # D3.js force-directed graph canvas
-│   ├── FederatedCopilot.tsx     # Gemini 2.4 RAG chat console with citations
+│   ├── FederatedCopilot.tsx     # Federated RAG chat console with citations
 │   ├── InnovationSandbox.tsx    # OGC API & LADM ISO 19152 GraphQL playground
 │   ├── PolicyBriefModal.tsx     # Cabinet brief preview & PDF exporter
 │   ├── LoginPortalModal.tsx     # 3D WebGL portal & RBAC profile launcher
@@ -120,7 +118,7 @@ src/
 │   ├── TypographyLoader.tsx     # Animated typographic entrance screen
 │   └── Header.tsx               # Header title banner
 ├── services/                    # Core Domain Services
-│   ├── geminiService.ts         # Google Gemini 2.4 API client & RAG helper
+│   ├── geminiService.ts         # Federated AI Copilot RAG service
 │   ├── econometricEngine.ts     # DiD, SCM matrix solver & RDD formulas
 │   └── pdfExportService.ts      # jsPDF document layout & export service
 ├── hooks/                       # Custom React Hooks
@@ -147,7 +145,7 @@ src/
 | **Styling** | Tailwind CSS | `^4.3.3` | Utility-first glassmorphism UI styling |
 | **Geospatial GIS** | Leaflet.js | `^1.9.4` | Zero-API key GIS map engine with LGD tiles |
 | **Data Visualization** | D3.js | `^7.9.0` | Force-directed spatial claim graph engine |
-| **Generative AI** | `@google/genai` (Gemini 2.4) | `^2.4.0` | Federated policy RAG copilot integration |
+| **Artificial Intelligence** | Federated RAG Engine | Custom | Policy RAG copilot integration |
 | **3D Graphics** | Three.js | `^0.186.1` | WebGL opaque land parcel mesh background |
 | **Document Export** | jsPDF | `^4.2.1` | Client-side PDF Cabinet Brief renderer |
 
@@ -165,43 +163,10 @@ npm install
 
 # 3. Configure Environment Variables
 cp .env.example .env.local
-# Set VITE_GEMINI_API_KEY=your_google_gemini_api_key
 
 # 4. Start Development Server
 npm run dev
 ```
-
----
-
-## 📜 Pull Requests & Code Review Timeline (21 PRs)
-
-All 21 Pull Requests were developed incrementally from **Sept 20, 2026 to Oct 5, 2026**, with detailed code reviews:
-
-| PR # | Title & Scope | Commits | Branch | Review Status |
-| :--- | :--- | :---: | :--- | :--- |
-| **[#1](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/1)** | `feat(core): initialize project scaffold, build configs, and tailwind/vite setup` | 10 | `feature/pr-01-core-scaffold` | ✅ Approved by @yashkoparde |
-| **[#2](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/2)** | `feat(types): establish LADM ISO-19152 land governance domain models & types` | 10 | `feature/pr-02-domain-types` | ✅ Approved by @yashkoparde |
-| **[#3](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/3)** | `feat(ui): add responsive command dock navigation and glassmorphism theme` | 10 | `feature/pr-03-command-dock` | ✅ Approved by @yashkoparde |
-| **[#4](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/4)** | `feat(ui): implement typography entrance loader and cinematic HBO intro` | 10 | `feature/pr-04-cinematic-intros` | ✅ Approved by @yashkoparde |
-| **[#5](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/5)** | `feat(auth): build role-based access control and 3D opaque WebGL portal` | 10 | `feature/pr-05-auth-webgl-portal` | ✅ Approved by @yashkoparde |
-| **[#6](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/6)** | `feat(dashboard): create overview hero dashboard and KPI summary widgets` | 10 | `feature/pr-06-overview-hero` | ✅ Approved by @yashkoparde |
-| **[#7](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/7)** | `feat(analytics): add D3 evidence gap chart and interactive claim network` | 10 | `feature/pr-07-evidence-gap-chart` | ✅ Approved by @yashkoparde |
-| **[#8](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/8)** | `feat(econometrics): implement Policy Twin ex-post DiD econometric model` | 10 | `feature/pr-08-econometric-did` | ✅ Approved by @yashkoparde |
-| **[#9](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/9)** | `feat(econometrics): add Synthetic Control Method (SCM) matrix solver` | 10 | `feature/pr-09-synthetic-control` | ✅ Approved by @yashkoparde |
-| **[#10](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/10)** | `feat(econometrics): implement event-study dynamic lead/lag estimator` | 10 | `feature/pr-10-event-study` | ✅ Approved by @yashkoparde |
-| **[#11](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/11)** | `feat(econometrics): add Regression Discontinuity Design (RDD) boundary analyzer` | 10 | `feature/pr-11-rdd-boundary` | ✅ Approved by @yashkoparde |
-| **[#12](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/12)** | `feat(simulation): build interactive ex-ante what-if policy simulator` | 10 | `feature/pr-12-what-if-sim` | ✅ Approved by @yashkoparde |
-| **[#13](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/13)** | `feat(gis): integrate Leaflet zero-key GIS digital twin and LGD overlays` | 10 | `feature/pr-13-gis-leaflet-twin` | ✅ Approved by @yashkoparde |
-| **[#14](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/14)** | `feat(gis): add multispectral satellite, LULC sprawl & SVAMITVA layers` | 10 | `feature/pr-14-satellite-lulc-layers` | ✅ Approved by @yashkoparde |
-| **[#15](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/15)** | `feat(nlp): implement DeBERTa-v3 legal judgment dispute intelligence parser` | 10 | `feature/pr-15-deberta-court-parser` | ✅ Approved by @yashkoparde |
-| **[#16](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/16)** | `feat(copilot): implement federated RAG copilot with Gemini 2.4 AI integration` | 10 | `feature/pr-16-federated-rag-copilot` | ✅ Approved by @yashkoparde |
-| **[#17](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/17)** | `feat(export): add jsPDF client-side cabinet brief document generator` | 10 | `feature/pr-17-pdf-cabinet-exporter` | ✅ Approved by @yashkoparde |
-| **[#18](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/18)** | `feat(api): implement OGC & LADM sandbox interactive API playground` | 10 | `feature/pr-18-ogc-ladm-sandbox` | ✅ Approved by @yashkoparde |
-| **[#19](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/19)** | `feat(i18n): integrate multi-language localization engine (5 languages)` | 10 | `feature/pr-19-i18n-localization` | ✅ Approved by @yashkoparde |
-| **[#20](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/20)** | `refactor(architecture): extract domain services, hooks, utilities, and clean structure` | 10 | `feature/pr-20-architecture-refactor` | ✅ Approved by @yashkoparde |
-| **[#21](https://github.com/yashkoparde/Viksit-s-Bhuniti-Lab/pull/21)** | `docs(readme): add comprehensive HLD, LLD, problem-solution docs & visuals` | 15 | `feature/pr-21-hld-lld-docs` | ✅ Approved by @yashkoparde |
-
-Detailed review notes in [`docs/PR_CODE_REVIEWS.md`](docs/PR_CODE_REVIEWS.md).
 
 ---
 
