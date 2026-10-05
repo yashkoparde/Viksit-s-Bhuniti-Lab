@@ -4,7 +4,6 @@
   # 🏛️ Viksit's Bhūnīti-Lab
   ### *BhuSaakshya: Next-Generation AI & GIS Federated Governance, Evidence Gap Intelligence, Dispute Intelligence, Policy Twin & Land Digital Twin Platform*
 
-  [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
   [![Vite](https://img.shields.io/badge/Vite-8.3.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -179,8 +178,7 @@ Bhūnīti-Lab serves as a foundational policy intelligence catalyst for **Viksit
 
 ---
 
-## 📄 License & Author
+## 👤 Author
 
 * **Author**: Yash Koparde ([@yashkoparde](https://github.com/yashkoparde) | yashkoparde2022@gmail.com)
-* **Organization**: Department of Land Resources (PME Division), Ministry of Rural Development, Government of India
-* **License**: Apache-2.0 License
+
